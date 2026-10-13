@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Xadrez Wallpaper
+Comment=Partidas lendárias de xadrez no seu papel de parede
+Exec=@BIN@ config
+Icon=xadrez-wallpaper
+Terminal=false
+Type=Application
+Categories=Game;BoardGame;
+Keywords=chess;xadrez;wallpaper;papel de parede;
+StartupNotify=true

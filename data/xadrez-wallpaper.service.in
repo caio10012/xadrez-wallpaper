@@ -1,0 +1,12 @@
+[Unit]
+Description=Xadrez Wallpaper — partidas lendárias no papel de parede
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=@BIN@ daemon
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
